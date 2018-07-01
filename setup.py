@@ -11,12 +11,12 @@ from setuptools import find_packages, setup
 
 setup(
     name='WTForms-Parsley',
-    version='0.1.0',
+    version='0.1.1',
     description='WTForms-Parsley',
     author='Boris Raicheff',
     author_email='b@raicheff.com',
     url='https://github.com/raicheff/wtforms-parsley',
-    packages=find_packages(),
+    py_modules=('wtforms_parsley',),
 )
 
 
